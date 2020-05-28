@@ -16,6 +16,7 @@ import org.springframework.stereotype.Service;
 public class EmailUserDetailsServiceImpl implements EmailUserDetailsService {
     @Autowired
     private UserDetailsService userDetailsService;
+
     @Override
     public String loadCodeByEmail(String email) {
         return "1234";

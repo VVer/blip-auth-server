@@ -22,6 +22,7 @@ public class MyUserDetailService implements UserDetailsService {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
+
     @Override
     public UserModel loadUserByUsername(String s) throws UsernameNotFoundException {
         UserModel userModel = new UserModel();
